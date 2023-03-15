@@ -1,0 +1,12 @@
+# MacOS
+Icon?
+.DS_store
+# python
+__pycache__/
+.ipynb_checkpoints
+# VS Code
+*.code-workspace
+# folders (for app/artifacts/* we use specific .gitignore inside each subfolder)
+wandb/
+# security
+.env
