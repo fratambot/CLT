@@ -14,10 +14,10 @@ class Die:
                 "You must give exactly 6 weights since we are \
                 considering only dice with 6 sides"
             )
-        if round(sum(weights), 10) != 1:
+        if round(sum(weights), 6) != 1:
             raise ValueError(
-                f"The sum of weights (rounded to the 10th decimal place) \
-                must be 1. It was: {round(sum(weights), 10)}"
+                f"The sum of weights (rounded to the 6th decimal place) \
+                must be 1. It was: {round(sum(weights), 6)}"
             )
         self.weights = weights
         self.cumulative_probs = self._compute_cumulative(weights)
