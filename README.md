@@ -8,13 +8,13 @@ Some remainders on mathematical concepts and definition will be given but you're
 
 ### Usage
 
-You can simply read from GitHub the notebook in the notebook folder `notebook/CLT.ipynb`.
+You can simply read the notebook in the notebooks folder `notebooks/CLT.ipynb` directly in GitHub.
 
-If you want to modify/play with the code you can clone the repository and run the command:
+If you want to play with the code, you can clone the repository and run the command:
 ```
 conda env create -f environment.yaml
 ```
 
 A conda environment called `CLT` will be created and all the necessary packages installed.
 
-Enjoy ! :)
+Enjoy ! 🤗
