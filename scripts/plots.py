@@ -40,6 +40,7 @@ def plot_rolls_distribution(rolls, density=True):
         )
         axs.vlines(mu + std, 0, np.max(counts), color="red", linestyles="dashed")
 
+    fig.tight_layout()
     plt.legend()
     plt.show()
     return
@@ -85,6 +86,7 @@ def plot_dice_sum_distribution(results, n_dice=" ", density=True):
         )
         axs.vlines(mu + std, 0, np.max(counts), color="red", linestyles="dashed")
 
+    fig.tight_layout()
     plt.legend()
     plt.show()
 
@@ -160,7 +162,6 @@ def plot_standard_distributions(results_list, n_dice_list):
     figlength = 4 * n_plots
     fig, axs = plt.subplots(n_plots, figsize=(8, figlength))
     for i, results in enumerate(results_list):
-        # label, counts = np.unique(results, return_counts=True)
         mu, std = norm.fit(np.asarray(results))
         z = (results - mu) / std
         new_mu, new_std = norm.fit(np.asarray(z))
