@@ -4,7 +4,7 @@
 
 This notebook is inspired by [3Blue1Brown's youtube video](https://www.youtube.com/watch?v=zeJD6dqJ5lo) and it implements, in Python, the simulations shown in the video allowing to use intuition to understand this fundamental theorem of probability theory.
 
-Some remainders on mathematical concepts and definitions will be given but you're strongly incouraged to watch the video for a better understanding.
+Some reminders on mathematical concepts and definitions will be given but you're strongly incouraged to watch the video for a better understanding.
 
 ### Usage
 
